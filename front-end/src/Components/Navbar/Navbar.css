@@ -1,0 +1,47 @@
+.navbar{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    position: absolute;
+    width: 80px;
+    position: fixed;
+    height: 100vh;
+    box-shadow: 2px 4px 6px black;
+}
+.brand img{
+    width: 70px;
+    margin-left: 30px;
+}
+.brand span{
+    text-align: center;
+    
+}
+.navbar ul {
+
+}
+.navbar ul li{
+    list-style: none;
+    margin: 20px;
+    padding: 5px;
+    margin-bottom: 50px;
+}
+.navbar ul li img{
+    width: 30px;
+}
+.navbar ul li:hover{
+    cursor: pointer;
+    background-color: purple;
+    border-radius: 10px;
+    /* border: 2px solid black; */
+    box-shadow: 2px 4px 6px black;
+}
+
+.active{
+cursor: pointer;
+background-color: purple;
+border-radius: 10px;
+/* border: 2px solid black; */
+box-shadow: 2px 4px 6px black;
+}

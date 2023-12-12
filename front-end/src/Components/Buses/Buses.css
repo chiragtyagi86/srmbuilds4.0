@@ -1,0 +1,54 @@
+.buses{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: 98px;
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+.bus-card{
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 10px;
+}
+.box{
+    border: 3px solid slateblue;
+    display: grid;
+    border-radius: 20px;
+    padding: 20px;
+    background: linear-gradient(white, whitesmoke);
+    margin: 20px;
+}
+.upper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    flex-direction: column;
+}
+.upper img{
+    width: 100px;
+}
+.mid span {
+    padding: 5px;
+}
+.mid{
+    padding: 10px;
+}
+.lower{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+ img{
+    width: 20px;
+}
+.box:hover{
+    background: rgb(223, 216, 216);
+    cursor: pointer;
+}
