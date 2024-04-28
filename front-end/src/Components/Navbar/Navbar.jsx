@@ -1,6 +1,6 @@
 import React from 'react'
 import './Navbar.css'
-import bus from '../Assets/bus.png'
+import bus from '../Assets/dot.png'
 import list from '../Assets/list.png'
 import home from '../Assets/home.png'
 import route from '../Assets/route.png'

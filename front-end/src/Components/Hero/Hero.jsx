@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hero.css'
-import footer from '../Assets/footer.jpg'
+import footer from '../Assets/dot.png'
 import all_product from '../Assets/all-product'
 
 const Hero = () => {

@@ -1,3 +1,5 @@
+import bus from '../Assets/list.png'
+let all_product  = [
 
   {
     id: 1,
@@ -179,3 +181,5 @@
     end_point: "Jind",
     bus_address: "HR 89 GH 5678",
   },
+];
+export default all_product;
